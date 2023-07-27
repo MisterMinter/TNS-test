@@ -1,0 +1,22 @@
+{
+  "name": "contracts",
+  "version": "1.0.0",
+  "description": "tns implementation.",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "tronbox compile",
+    "test": "tronbox test",
+    "test-network": "docker run -it -p 9090:9090 --rm --name tron -e \"mnemonic=maid lock awkward october curtain renew eyebrow access gasp essay lonely buyer\" tronbox/tre",
+    "migrate": "tronbox migrate --reset"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "tronbox": "^3.3.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
